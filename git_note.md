@@ -6,11 +6,11 @@
 
 #####git的增删改查
 - 增加
-	- git add <fileName> 
+	- git add \<fileName> 
 - 删除
-	- git rm <fileName> (-r <dirName>)
+	- git rm \<fileName> (-r \<dirName>)
 - 撤销修改
-	- git checkout -- <fileName> 
+	- git checkout -- \<fileName> 
 - 修改（提交）
 	- git commit -m "message"
 - 查看（当前状态信息）
@@ -19,17 +19,17 @@
 	
 #####分支操作
 - 创建分支
-	- git branch <branchId>
+	- git branch \<branchId>
 - 切换分支
-	- git checkout <branchId>
+	- git checkout \<branchId>
 - 创建并切换分支
-	- git checkout -b <branchId> 
+	- git checkout -b \<branchId> 
 - 合并分支
-	- git merge <branchId> (将<branchId>合并到当前分支)
+	- git merge \<branchId> (将<branchId>合并到当前分支)
 - 删除分支
-	- git branch -d <branchId>
+	- git branch -d \<branchId>
 - 版本回退(前进)
-	- git reset --hard <commit id>(也可以用HEAD标示当前版本。上一个版本就是HEAD^，上上一个版本就是HEAD^^，当然往上100个版本写100个^比较容易数不过来，所以写成HEAD~100。)
+	- git reset --hard \<commit id>(也可以用HEAD标示当前版本。上一个版本就是HEAD^，上上一个版本就是HEAD^^，当然往上100个版本写100个^比较容易数不过来，所以写成HEAD~100。)
 	
 #####bug分支
 
